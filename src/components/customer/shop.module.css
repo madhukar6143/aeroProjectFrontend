@@ -1,0 +1,117 @@
+/* Define the CSS class for the card-button */
+.card-button {
+    border: none;
+    background: none;
+    padding: 0;
+    transition: transform 0.3s; /* Add a smooth transition for the effect */
+  }
+  
+  .background-image {
+    background-image: url(" https://wallpapercave.com/wp/wp7912954.jpg"); 
+   /* Replace with your image URL */
+    background-size: cover;
+    height: 100vh;
+    /* Additional styles if necessary */
+  }
+  /* Add a scaling effect on hover */
+  .card-button:hover {
+    transform: scale(1.05); /* Adjust the scale factor as needed */
+  }
+
+  /* dashboard.module.css */
+
+/* Form */
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Item Cards */
+.item-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Individual Item Card */
+.item-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  box-shadow: 0 0 5px #ccc;
+  background-color: #fff;
+  text-align: center;
+  transition: transform 0.2s ease-in;
+}
+
+.item-card:hover {
+  transform: translateY(-5px);
+}
+
+.item-card h6 {
+  font-weight: bold;
+  margin: 0;
+  padding: 5px;
+  background-color: #f1f1f1;
+  border-radius: 5px 5px 0 0;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Increment and Decrement Buttons */
+button.increment,
+button.decrement {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.decrement {
+  background-color: #dc3545;
+}
+
+button.increment:hover,
+button.decrement:hover {
+  background-color: #1e7e34;
+}

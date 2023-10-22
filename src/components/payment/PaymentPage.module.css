@@ -1,0 +1,7 @@
+.background-image {
+    background-image: url("https://wallpapercave.com/wp/wp11425570.jpg"); 
+   /* Replace with your image URL */
+    background-size: cover;
+    height: 100vh;
+    /* Additional styles if necessary */
+  }

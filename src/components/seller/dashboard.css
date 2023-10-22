@@ -1,0 +1,12 @@
+/* Define the CSS class for the card-button */
+.card-button {
+    border: none;
+    background: none;
+    padding: 0;
+    transition: transform 0.3s; /* Add a smooth transition for the effect */
+  }
+  
+  /* Add a scaling effect on hover */
+  .card-button:hover {
+    transform: scale(1.05); /* Adjust the scale factor as needed */
+  }
